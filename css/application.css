@@ -1,0 +1,38 @@
+.application {}
+
+.application__title {
+    color: #474766;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.application__descr {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    max-width: 866px;
+}
+.application__descr-2{
+    max-width: 1067px;
+}
+.application__descr-3{
+    max-width: 957px;
+}
+.application__form {
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+.application-btn {
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 70px;
+    border-radius: 20px;
+    background-color: #222;
+    max-width: 200px;
+}

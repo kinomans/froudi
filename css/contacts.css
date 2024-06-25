@@ -1,0 +1,78 @@
+.contacts {
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+
+.contacts__title {
+    color: #474766;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.contacts__blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-image: url("../img/contacts-bialdbordFroudi.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.contacts__block {
+    width: 834px;
+}
+
+.contacts__block__content {
+    display: flex;
+    align-items: center;
+    padding: 34px 0;
+    border-bottom: 1px solid #474766;
+
+}
+
+.contacts__block__content-title {
+    color: #474766;
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.contacts__block__content-block-descr-street {
+    margin-left: auto;
+}
+
+.contacts__block__content-block-descr-phone {
+    margin-left: 110px;
+    max-width: 205px;
+}
+
+.contacts__block__content-block-descr-mail {
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__block__content-block-descr-graph {
+    margin-left: 160px;
+    max-width: 263px;
+}
+
+.contacts__block__content-descr {
+    color: #474766;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+}
+
+.contacts__block-btn {
+    border-radius: 10px;
+    border: 1px solid #474766;
+    padding: 30px;
+    color: #474766;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 50px;
+}
